@@ -204,6 +204,7 @@ footer {
 .footer-box img {
   width: 483.87px;
   height: 110px;
+  margin-bottom: 15px;
 }
 .social-icon {
   display: flex;
@@ -223,6 +224,11 @@ footer {
 }
 footer a {
   text-decoration: none;
+}
+.footer-box p{
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 10px;
 }
 /*----------------
 footer style end 
