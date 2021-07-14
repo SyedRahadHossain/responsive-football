@@ -38,8 +38,6 @@ main {
   width: 168px;
   height: 44px;
   font-size: 16px;
-
-  /* border: 0; */
 }
 .heading button:hover {
   background-color: #2d25a0;
@@ -88,8 +86,6 @@ main {
   font-size: 28px;
 }
 .player-info p {
-  /* margin-top: 10px;
-  margin-bottom: 33px; */
   font-size: 16px;
   font-weight: 400;
 }
@@ -108,7 +104,6 @@ final match result
   margin-top: 0;
   margin-left: 75px;
 }
-
 .final-result {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -148,14 +143,6 @@ footer {
   margin-bottom: 63px;
   text-align: center;
 }
-
-/* .footer-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 483.87px;
-  height: 213px;
-} */
 .footer-box img {
   width: 483.87px;
   height: 110px;
@@ -175,12 +162,6 @@ footer {
   background-color: rgb(211, 211, 211);
   padding: 7px;
   border-radius: 100%;
-}
-footer p {
-  /* text-align: center; */
-  /* display: flex;
-  justify-content: center;
-  font-size: 18px; */
 }
 footer a {
   text-decoration: none;
@@ -218,7 +199,6 @@ footer a {
   /* player section */
   .players {
     grid-template-columns: repeat(1, 1fr);
-    margin-bottom: ;
   }
   .players-card {
     width: 330px;
