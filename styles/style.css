@@ -60,7 +60,7 @@ main {
 }
 /* players information style */
 .players-informations {
-  margin-bottom: 163px;
+  margin-bottom: 120px;
 }
 .players {
   display: grid;
@@ -92,6 +92,51 @@ main {
   margin-bottom: 33px; */
   font-size: 16px;
   font-weight: 400;
+}
+
+/* ----------------
+final match result 
+------------------*/
+.final-match p {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+}
+.final-result span {
+  font-size: 23px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-left: 75px;
+}
+
+.final-result {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 500px;
+  height: 200px;
+  background-color: white;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  margin-bottom: 70px;
+  padding-bottom: 33px;
+}
+.argentina img {
+  margin-top: 70px;
+  margin-left: 50px;
+}
+.result p {
+  text-align: center;
+  font-size: 70px;
+  font-weight: 700;
+}
+.brazil img {
+  margin-top: 70px;
+  margin-left: 19px;
+}
+.brazil span {
+  font-size: 23px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-left: 45px;
 }
 
 /* footer style start */
@@ -132,13 +177,13 @@ footer {
   border-radius: 100%;
 }
 footer p {
-    /* text-align: center; */
+  /* text-align: center; */
   /* display: flex;
   justify-content: center;
   font-size: 18px; */
 }
-footer a{
-    text-decoration: none;
+footer a {
+  text-decoration: none;
 }
 /* footer style end */
 
@@ -173,21 +218,47 @@ footer a{
   /* player section */
   .players {
     grid-template-columns: repeat(1, 1fr);
+    margin-bottom: ;
   }
   .players-card {
     width: 330px;
     height: 474px;
   }
+  /* result section */
+  .final-match p {
+    font-size: 22px;
+  }
+  .final-result {
+    width: 330px;
+    height: 150px;
+    margin-bottom: 100px;
+  }
+  .argentina img {
+    width: 60px;
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+  .brazil img {
+    width: 60px;
+    margin-top: 40px;
+  }
+  .argentina span {
+    margin-left: 35px;
+  }
+  .brazil span {
+    margin-left: 25px;
+  }
+  .final-result p {
+    font-size: 40px;
+  }
   /* footer section */
   footer {
-      
     text-align: center;
   }
   .football img {
     width: 300px;
   }
-.social-icon{
+  .social-icon {
     margin-left: 50px;
-}
-  
+  }
 }
