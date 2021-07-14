@@ -116,11 +116,12 @@ footer {
   height: 110px;
 }
 .social-icon {
-  /* display: flex;
+  display: flex;
   justify-content: space-between;
-  align-items: center; */
+  align-items: center;
   width: 200px;
   height: 32px;
+  margin-left: 149px;
 }
 .social-icon i {
   color: #969bab;
@@ -177,6 +178,7 @@ footer a{
     width: 330px;
     height: 474px;
   }
+  /* footer section */
   footer {
       
     text-align: center;
@@ -184,6 +186,8 @@ footer a{
   .football img {
     width: 300px;
   }
-
+.social-icon{
+    margin-left: 50px;
+}
   
 }
